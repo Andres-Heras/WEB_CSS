@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <!--------------------------- METADATOS ------------------------->
+    <meta charset="utf-8">
+    <meta name="author" content="Andrés Heras">
+    <meta name="description" content="Página de aprendizaje de CSS">
+    <meta name="keywords" content="CSS, ejercicios" />
     <!---------------------------- Título --------------------------->
     <title></title>
     <!-------------------------- FAVICON ---------------------------->
     <link rel="icon" type="image/png" href="favicon.png">
+    <!----------------------------- CSS ----------------------------->
     <style type="text/css">
       body {
         padding-left: 11em;
@@ -42,11 +46,11 @@
       </style>
   <title>Sobre m&iacute</title>
 </head>
+<!------------------------------- CUERPO --------------------------------->
 <body>
 <h1>Andr&eacutes Heras Leiva</h1>
-<h2>I.E.S GRAN CAPITAN- 1ºASIR - </h2>
-<p>Todo es empezar</p>
-<!-- BARRA DE NAVEGACIÓN -->
+<h2>¿Qui&eacute;n soy?</h2>
+<!------------------------ BARRA DE NAVEGACIÓN --------------------------->
 <ul class="navbar">
   <li><a href="index.html">Inicio</a>
   <li><a href="Estudios.html">Estudios</a>
@@ -54,9 +58,33 @@
   <li><a href="Contacto.html">Contacto</a>
   <li><a href="Sobremí.html">¿Qui&eacuten soy</a>
 </ul>
-    <p>Mandeme un email a <a href="mailto:youremailaddress">contacto@hotmail.com</a></p>  
-        <!-- FIRMA Y FECHA -->
-        <address>25/02/2019<br>
+<h1>Andrés Heras Leiva</h1>
+<h2>I.E.S GRAN CAPITAN- 1ºASIR - </h2>
+<p>Rellene este formulario y me pondré en contacto con usted.</p>
+<h1>¡GRACIAS!</h1>
+<div id="after_submit"></div>
+<!-------------------------------- FORMULARIO --------------------------->
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+    <label class="required" for="name">Nombre</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="email">Email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+  <div class="row">
+    <label class="required" for="message">Mensaje:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="ENVIAR" />
+</form> 
+  <!------------------------ FIRMA Y FECHA ---------------------------->
+  <address>25/02/2019<br>
           by Andrés.</address>
   </body>
   </html>
