@@ -1,35 +1,35 @@
-# GUION
+# GUION " 18 COMANDOS GIT"
 
-1.- cd /c/users/q92he/"Google drive"/Proyectos/Github # __Localizamos nuestro directorio de trabajo__
+cd /c/users/q92he/"Google drive"/Proyectos/Github # __Localizamos nuestro directorio de trabajo__
 
-2.- mkdir Web_CSS # __Creamos la carpeta del directorio de trabajo__
+mkdir Web_CSS # __Creamos la carpeta del directorio de trabajo__
 
-3.- cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # __Entramos en la carpeta de directorio de trabajo__
+cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # __Entramos en la carpeta de directorio de trabajo__
 
-4.- __Creamos o copiamos los archivos en el directorio de trabajo__
+__Creamos o copiamos los archivos en el directorio de trabajo__
 
-5.- git init # __Creamos el repositorio__
-
-
-6.- git status # A__rchivos sin seguimiento__
+git init # __Creamos el repositorio__
 
 
-7.- git add . # __Ponemos los archivos en seguimiento__
+git status # A__rchivos sin seguimiento__
 
 
-8.- git status # __Archivos en seguimiento__ 
+git add . # __Ponemos los archivos en seguimiento__
 
 
-9.- git commit -m "Archivos al HEAD" # __Subimos al HEAD__
+git status # __Archivos en seguimiento__ 
 
 
-10. -git rm "Facebook.html" # __Borro el arhcivo Facebook.html del HEAD__
+git commit -m "Archivos al HEAD" # __Subimos al HEAD__
 
 
-11.- git commit -m "FB borrado"
+git rm "Facebook.html" # __Borro el arhcivo Facebook.html del HEAD__
 
 
-12.- git mv css-3-logo.png log-CSS3.png # __Cambiamos el nombre del archivo__
+git commit -m "FB borrado"
+
+
+git mv css-3-logo.png log-CSS3.png # __Cambiamos el nombre del archivo__
 
 
 git commit -m "Cambio nombre LOGO"
@@ -63,10 +63,10 @@ git clone https://github.com/Andres-Heras/WEB_CSS.git
 cd /c/users/q92he/"Google drive"/Proyectos/Github/WEB_CSS
 
 
-git init #Iniciamos el repositorio
+git init # __Iniciamos el repositorio__
 
 
-git add . #Ponemos los archivos en seguimiento
+git add . # __Ponemos los archivos en seguimiento__
 
 
 git commit -m "Repositorio clonado" 
@@ -75,12 +75,12 @@ git commit -m "Repositorio clonado"
 git pull  https://github.com/Andres-Heras/WEB_CSS.git
 
 
-git show # Para ver toda la información del repositorio añadida.
+git show # __Para ver toda la información del repositorio añadida.__
 
 
-git branch CSS #Creamos la rama CSS
+git branch CSS # __Creamos la rama CSS__
 
-git checkout -b "HTML" #Creamos la rama HTML y empezamos a trabajar sobre ella
+git checkout -b "HTML" # __Creamos la rama HTML y empezamos a trabajar sobre ella__
 
 ## Introduzco los Metadatos y el Formulario
 
@@ -91,7 +91,7 @@ git add .
 git commit -m"Cambios HTML"
 
 
-git checkout CSS
+git checkout CSS # __Cambio de rama__
 
 
 ## Pasamos el CSS a un archivo externo (estilo)
@@ -118,35 +118,21 @@ git  commit -m "Conflicto resueltos"
 git log --oneline --graph --color --all --decorate # Modo gráfico para ver información
 
 
-git checkout master
+git checkout master #__Cambio de rama__
 
 
-git diff HTML master
+git diff HTML master #__Diferencias de ramas
 
 
-git merge HTML
+git merge HTML # __Uno la rama HTML__
 
 
-git merge css
+git merge css #__Uno la rama CSS__
 
 
-git fetch origin 
-
-
-git push origin
-
-
-git merge css
-
-
-git fetch origin
+git fetch origin # __Actualizamos con el repositorio remoto__
 
 
 git push origin
-
-
-
-
-
 
 
