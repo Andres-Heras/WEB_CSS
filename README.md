@@ -1,10 +1,10 @@
 # GUION
 
-cd /c/users/q92he/"Google drive"/Proyectos/Github #Localizamos nuestro directorio de trabajo
+1.- cd /c/users/q92he/"Google drive"/Proyectos/Github #_Localizamos nuestro directorio de trabajo_
 
-mkdir Web_CSS # Creamos la carpeta del directorio de trabajo
+2.- mkdir Web_CSS # _Creamos la carpeta del directorio de trabajo_
 
-cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # Entramos en la carpeta de directorio de trabajo
+3.- cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # _Entramos en la carpeta de directorio de trabajo_
 
 ## Creamos o copiamos los archivos en el directorio de trabajo
 
