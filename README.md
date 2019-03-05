@@ -1,6 +1,7 @@
 >cd /c/users/q92he/"Google drive"/Proyectos/Github #Localizamos nuestro directorio de trabajo
->cd /c/users/q92he/"Google drive"/Proyectos/Github #Localizamos nuestro directorio de trabajo
+
 mkdir Web_CSS # Creamos la carpeta del directorio de trabajo
+
 >cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # Entramos en la carpeta de directorio de trabajo
 
 #Creamos o copiamos los archivos en el directorio de trabajo
