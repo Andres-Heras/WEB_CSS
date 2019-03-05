@@ -1,11 +1,12 @@
-[x]cd /c/users/q92he/"Google drive"/Proyectos/Github #Localizamos nuestro directorio de trabajo
-[x]mkdir Web_CSS # Creamos la carpeta del directorio de trabajo
-[x]cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # Entramos en la carpeta de directorio de trabajo
+>cd /c/users/q92he/"Google drive"/Proyectos/Github #Localizamos nuestro directorio de trabajo
+>cd /c/users/q92he/"Google drive"/Proyectos/Github #Localizamos nuestro directorio de trabajo
+mkdir Web_CSS # Creamos la carpeta del directorio de trabajo
+>cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # Entramos en la carpeta de directorio de trabajo
 
 #Creamos o copiamos los archivos en el directorio de trabajo
 
-[x]git init #Creamos el repositorio
-[x]git status #Archivos sin seguimiento
+>git init #Creamos el repositorio
+git status #Archivos sin seguimiento
 [x]git add . #Ponemos los archivos en seguimiento
 [x]git status #Archivos en seguimiento 
 (hago cambios en los archivospara usar el diff)
