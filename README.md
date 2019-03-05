@@ -7,17 +7,41 @@ mkdir Web_CSS # Creamos la carpeta del directorio de trabajo
 #Creamos o copiamos los archivos en el directorio de trabajo
 
 >git init #Creamos el repositorio
+
+
 git status #Archivos sin seguimiento
+
+
 [x]git add . #Ponemos los archivos en seguimiento
+
+
 [x]git status #Archivos en seguimiento 
+
+
 (hago cambios en los archivospara usar el diff)
+
+
 [x]git commit -m "Archivos al HEAD"
+
+
 [x]git rm "Facebook.html" #Borro el arhcivo Facebook.html del HEAD
+
+
 [x]git commit -m "FB borrado"
+
+
 [x]git mv css-3-logo.png log-CSS3.png # Cambiamos el nombre del archivo
+
+
 [x]git commit -m "Cambio nombre LOGO"
+
+
 [x]git reset --soft HEAD~1 #Borro el commit anterior
+
+
 [x]git mv log-CSS3.png Favicon.png
+
+
 [x]git commit -m "cambios al HEAD"
 []git remote add origin https://github.com/Andres-Heras/WEB_CSS.git 
 []git push origin master #Subimos al repositorio remoto creado al principio del video (GITHUB)
