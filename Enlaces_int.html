@@ -8,6 +8,23 @@
     <link rel="icon" type="image/png" href="favicon.png">
   <!------------------------------ CSS ------------------------------->
   <style type="text/css">
+    div.container {
+        width: 73%;
+        border:none;
+        margin:auto;
+    }
+    header, footer {
+        padding: 1em;
+        color: white;
+        background-color:green;
+        clear: left;
+        text-align: center;
+    }
+    nav {
+        float: right;
+        max-width: 163px;
+        padding: 1em;
+        border: solid #333
     body {
       padding-left: 11em;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -44,6 +61,10 @@
 </head>
 
 <body>
+    <!------------------------------ LAYOUT ---------------------------->
+  <div class="container">
+    <!------------------------------ CABEZERA -------------------------->
+    <header>
   <h1>ENLACES INTERESANTES</h1>
   <h2>Visita</h2>
   <ul class="navbar">
@@ -53,11 +74,12 @@
     <li><a href="Contacto.html">Contacto</a>
     <li><a href="Sobremí.html">¿Qui&eacute;n soy</a>
   </ul>
-  <p></p>
-
+     <!------------------------------ ARTÍCULO -------------------------->
+  <article>
+      <h1>Visita</h1>
   <p>Iré exponiendo los conocimientos que adquiera de CSS</p>
-  <!----FIRMA Y FECHA -->
-  <address>25/02/2019<br>
-    by Andrés.</address>
+     <!---------------------------------- PIE ----------------------------->
+  <footer>25/02/2019</footer>
+ </div>
 </body>
 </html>

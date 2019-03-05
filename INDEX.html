@@ -10,6 +10,23 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <!---------------------------- CSS ------------------------------->
   <style type="text/css">
+    div.container {
+        width: 73%;
+        border:none;
+        margin:auto;
+    }
+    header, footer {
+        padding: 1em;
+        color: white;
+        background-color:green;
+        clear: left;
+        text-align: center;
+    }
+    nav {
+        float: right;
+        max-width: 163px;
+        padding: 1em;
+        border: solid #333
    body {
     padding-left: 11em;
     font-family: Georgia, "Times New Roman",
@@ -31,8 +48,12 @@
 <!--CUERPO-->
 
 <body>
-  <h1>Mi primera P&aacute;gina Web con CSS</h1>
-  <h2>Tips de CSS</h2>
+   <!------------------------------ LAYOUT ---------------------------->
+  <div class="container">
+    <!------------------------------ CABEZERA -------------------------->
+    <header>
+  <h1>BIENVENIDOS</h1>
+      
   <!-- BARRA DE NAVEGACIÓN -->
   <ul class="navbar">
     <li><a href="index.html">Inicio</a>
@@ -41,13 +62,14 @@
     <li><a href="Contacto.html">Contacto</a>
     <li><a href="Sobremí.html">¿Qui&eacute;n soy</a>
   </ul>
-  <p>Bienvenidos a primera p&aacute;gina web con CSS</p>
-
-  <p>Ir&eacute; exponiendo los conocimientos que adquiera de CSS</p>
-      <!-- FIRMA Y FECHA -->
-      <address>25/02/2019<br>
-        by Andrés.</address>
-
+   <!------------------------------ ARTÍCULO -------------------------->
+  <article>
+      <h2>Tips de CSS</h2>
+<p>Iré exponiendo los conocimientos que adquiera de CSS</p>
+      </article>
+     <!---------------------------------- PIE ----------------------------->
+  <footer>25/02/2019</footer>
+ </div>
 </body>
 
 </html>
