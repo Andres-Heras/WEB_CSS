@@ -1,35 +1,35 @@
 # GUION
 
-1.- cd /c/users/q92he/"Google drive"/Proyectos/Github # _Localizamos nuestro directorio de trabajo_
+1.- cd /c/users/q92he/"Google drive"/Proyectos/Github # __Localizamos nuestro directorio de trabajo__
 
-2.- mkdir Web_CSS # _Creamos la carpeta del directorio de trabajo_
+2.- mkdir Web_CSS # __Creamos la carpeta del directorio de trabajo__
 
-3.- cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # _Entramos en la carpeta de directorio de trabajo_
+3.- cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # __Entramos en la carpeta de directorio de trabajo__
 
-## Creamos o copiamos los archivos en el directorio de trabajo
+4.- __Creamos o copiamos los archivos en el directorio de trabajo__
 
-git init #Creamos el repositorio
-
-
-git status #Archivos sin seguimiento
+5.- git init # __Creamos el repositorio__
 
 
-git add . #Ponemos los archivos en seguimiento
+6.- git status # A__rchivos sin seguimiento__
 
 
-git status #Archivos en seguimiento 
+7.- git add . # __Ponemos los archivos en seguimiento__
 
 
-git commit -m "Archivos al HEAD"
+8.- git status # __Archivos en seguimiento__ 
 
 
-git rm "Facebook.html" #Borro el arhcivo Facebook.html del HEAD
+9.- git commit -m "Archivos al HEAD" # __Subimos al HEAD__
 
 
-git commit -m "FB borrado"
+10. -git rm "Facebook.html" # __Borro el arhcivo Facebook.html del HEAD__
 
 
-git mv css-3-logo.png log-CSS3.png # Cambiamos el nombre del archivo
+11.- git commit -m "FB borrado"
+
+
+12.- git mv css-3-logo.png log-CSS3.png # __Cambiamos el nombre del archivo__
 
 
 git commit -m "Cambio nombre LOGO"
