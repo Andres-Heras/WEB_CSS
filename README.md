@@ -1,10 +1,12 @@
+# GUION
+
 cd /c/users/q92he/"Google drive"/Proyectos/Github #Localizamos nuestro directorio de trabajo
 
 mkdir Web_CSS # Creamos la carpeta del directorio de trabajo
 
 cd /c/users/q92he/"Google drive"/Proyectos/Github/Web_CSS # Entramos en la carpeta de directorio de trabajo
 
-# Creamos o copiamos los archivos en el directorio de trabajo
+## Creamos o copiamos los archivos en el directorio de trabajo
 
 git init #Creamos el repositorio
 
@@ -12,91 +14,87 @@ git init #Creamos el repositorio
 git status #Archivos sin seguimiento
 
 
-[x]git add . #Ponemos los archivos en seguimiento
+git add . #Ponemos los archivos en seguimiento
 
 
-[x]git status #Archivos en seguimiento 
+git status #Archivos en seguimiento 
 
 
-(hago cambios en los archivospara usar el diff)
+git commit -m "Archivos al HEAD"
 
 
-[x]git commit -m "Archivos al HEAD"
+git rm "Facebook.html" #Borro el arhcivo Facebook.html del HEAD
 
 
-[x]git rm "Facebook.html" #Borro el arhcivo Facebook.html del HEAD
+git commit -m "FB borrado"
 
 
-[x]git commit -m "FB borrado"
+git mv css-3-logo.png log-CSS3.png # Cambiamos el nombre del archivo
 
 
-[x]git mv css-3-logo.png log-CSS3.png # Cambiamos el nombre del archivo
+git commit -m "Cambio nombre LOGO"
 
 
-[x]git commit -m "Cambio nombre LOGO"
+git reset --soft HEAD~1 #Borro el commit anterior
 
 
-[x]git reset --soft HEAD~1 #Borro el commit anterior
+git mv log-CSS3.png Favicon.png
 
 
-[x]git mv log-CSS3.png Favicon.png
+git commit -m "cambios al HEAD"
 
 
-[x]git commit -m "cambios al HEAD"
+git remote add origin https://github.com/Andres-Heras/WEB_CSS.git 
 
 
-[]git remote add origin https://github.com/Andres-Heras/WEB_CSS.git 
-
-
-[]git push origin master #Subimos al repositorio remoto creado al principio del video (GITHUB)
+git push origin master #Subimos al repositorio remoto creado al principio del video (GITHUB)
 
 
 
-#Subido el archivo borro el repositorio LOCAL
+## Subido el archivo borro el repositorio LOCAL
 
 
-[x]cd /c/users/q92he/"Google drive"/Proyectos/Github 
+cd /c/users/q92he/"Google drive"/Proyectos/Github 
 
 
-[x]git clone https://github.com/Andres-Heras/WEB_CSS.git
+git clone https://github.com/Andres-Heras/WEB_CSS.git
 
 
-[x]cd /c/users/q92he/"Google drive"/Proyectos/Github/WEB_CSS
+cd /c/users/q92he/"Google drive"/Proyectos/Github/WEB_CSS
 
 
-[x]git init #Iniciamos el repositorio
+git init #Iniciamos el repositorio
 
 
-[x]git add . #Ponemos los archivos en seguimiento
+git add . #Ponemos los archivos en seguimiento
 
 
-[x]git commit -m "Repositorio clonado" 
+git commit -m "Repositorio clonado" 
 
 
-[x]git pull  https://github.com/Andres-Heras/WEB_CSS.git
+git pull  https://github.com/Andres-Heras/WEB_CSS.git
 
 
-[x]git show # Para ver toda la información del repositorio añadida.
+git show # Para ver toda la información del repositorio añadida.
 
 
-[x]git branch CSS #Creamos la rama CSS
+git branch CSS #Creamos la rama CSS
+
+git checkout -b "HTML" #Creamos la rama HTML y empezamos a trabajar sobre ella
+
+## Introduzco los Metadatos y el Formulario
 
 
-[x]git checkout -b "HTML" #Creamos la rama HTML y empezamos a trabajar sobre ella
-
-#Introduzco los Metadatos y el Formulario
+git add .
 
 
-[x]git add .
+git commit -m"Cambios HTML"
 
 
-[x]git commit -m"Cambios HTML"
+git checkout CSS
 
 
-[]git checkout CSS
-
-
-Pasamos el CSS a un archivo externo (estilo)
+## Pasamos el CSS a un archivo externo (estilo)
 
 
 git status
@@ -108,43 +106,43 @@ git add .
 git commit -m "CSS Archivo externo"
 
 
-Layout (ALTEREGO)
+## Colaboración en Github añadiendo LAYOUT a la web
 
 
-[x]git pull  https://github.com/Andres-Heras/WEB_CSS.git
+git pull  https://github.com/Andres-Heras/WEB_CSS.git
 
 
-[x]git commit -m "Conflicto resueltos"
+git  commit -m "Conflicto resueltos"
 
 
-[x]git log --oneline --graph --color --all --decorate # Modo gráfico para ver información
+git log --oneline --graph --color --all --decorate # Modo gráfico para ver información
 
 
-[x]git checkout master
+git checkout master
 
 
-[x]git diff HTML master
+git diff HTML master
 
 
-[x]git merge HTML
+git merge HTML
 
 
-[x]git merge css
+git merge css
 
 
-[x]git fetch origin
+git fetch origin 
 
 
-[x]git push origin
+git push origin
 
 
-[x]git merge css
+git merge css
 
 
-[x]git fetch origin
+git fetch origin
 
 
-[]git push origin
+git push origin
 
 
 
