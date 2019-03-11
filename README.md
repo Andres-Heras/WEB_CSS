@@ -10,34 +10,34 @@
 4.-__Creamos o copiamos los archivos en el directorio de trabajo__
 
 
-5.- git init # __Creamos el repositorio__
+5.- git init # __Creamos el repositorio__ (1)
 
 
-6.- git status # A__rchivos sin seguimiento__
+6.- git status # A__rchivos sin seguimiento__ (2)
 
 
-7.- git add . # __Ponemos los archivos en seguimiento__
+7.- git add . # __Ponemos los archivos en seguimiento__ (3)
 
 
-8.- git status # __Archivos en seguimiento__
+8.- git status # __Archivos en seguimiento__ (4)
 
 
-9.- git commit -m "Archivos al HEAD" # __Subimos al HEAD__
+9.- git commit -m "Archivos al HEAD" # __Subimos al HEAD__ (5)
 
 
-10.- git rm "Facebook.html" # __Borro el arhcivo Facebook.html del HEAD__
+10.- git rm "Facebook.html" # __Borro el arhcivo Facebook.html del HEAD__ (6)
 
 
 11.- git commit -m "FB borrado"
 
 
-12.- git mv css-3-logo.png log-CSS3.png # __Cambiamos el nombre del archivo__
+12.- git mv css-3-logo.png log-CSS3.png # __Cambiamos el nombre del archivo__ (7)
 
 
 13.- git commit -m "Cambio nombre LOGO"
 
 
-14.- git reset --soft HEAD~1 #Borro el commit anterior
+14.- git reset --soft HEAD~1 #Borro el commit anterior (8)
 
 
 15.- git mv log-CSS3.png Favicon.png
@@ -46,10 +46,10 @@
 16.- git commit -m "cambios al HEAD"
 
 
-17.- git remote add origin https://github.com/Andres-Heras/WEB_CSS.git
+17.- git remote add origin https://github.com/Andres-Heras/WEB_CSS.git (9)
 
 
-18.- git push origin master #Subimos al repositorio remoto creado al principio del video (GITHUB)
+18.- git push origin master #Subimos al repositorio remoto creado al principio del video (GITHUB) (10)
 
 
 19.- ## Subido el archivo borro el repositorio LOCAL
@@ -58,7 +58,7 @@
 20.- cd /c/users/q92he/"Google drive"/Proyectos/Github
 
 
-21.- git clone https://github.com/Andres-Heras/WEB_CSS.git
+21.- git clone https://github.com/Andres-Heras/WEB_CSS.git (11)
 
 
 22.- cd /c/users/q92he/"Google drive"/Proyectos/Github/WEB_CSS
@@ -73,16 +73,16 @@
 25.- git commit -m "Repositorio clonado"
 
 
-26.- git pull  https://github.com/Andres-Heras/WEB_CSS.git
+26.- git pull  https://github.com/Andres-Heras/WEB_CSS.git (12)
 
 
-27.- git show # __Para ver toda la información del repositorio añadida.__
+27.- git show # __Para ver toda la información del repositorio añadida.__ (13)
 
 
-28.- git branch CSS # __Creamos la rama CSS__
+28.- git branch CSS # __Creamos la rama CSS__ (14)
 
 
-29.- git checkout -b "HTML" # __Creamos la rama HTML y empezamos a trabajar sobre ella_
+29.- git checkout -b "HTML" # __Creamos la rama HTML y empezamos a trabajar sobre ella_ (15)
 
 
 30.- ## Introduzco los Metadatos y el Formulario
@@ -124,16 +124,16 @@
 42.- git checkout master #__Cambio de rama__
 
 
-43.- git diff HTML master #__Diferencias de ramas
+43.- git diff HTML master #__Diferencias de ramas (16)
 
 
-44.- git merge HTML # __Uno la rama HTML__
+44.- git merge HTML # __Uno la rama HTML__ (17)
 
 
 45.- git merge css #__Uno la rama CSS__
 
 
-46.- git fetch origin # __Actualizamos con el repositorio remoto__
+46.- git fetch origin # __Actualizamos con el repositorio remoto__ (18)
 
 
 47.- git push origin
