@@ -1,3 +1,4 @@
+# GUION DE COMANDOS
 
 
 1.-cd /c/users/q92he/"Google drive"/Proyectos/Github # __Localizamos nuestro directorio de trabajo__
